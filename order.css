@@ -1,0 +1,23 @@
+.order{
+	width:1200px;
+	margin:0 auto;
+}
+.order_title{
+	line-height:36px;
+	height:36px;
+	margin-top:10px;
+}
+.order_title li{
+	float:left;
+	text-align:center;
+	color:#969696;
+}
+.order_title .o1{
+	width:200px;
+}
+.order_title .o2, .o3{
+	width:100px;
+}
+.order_title .o4, .o5, .o6, .o7{
+	width:200px;
+}

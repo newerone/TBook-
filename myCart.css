@@ -1,0 +1,263 @@
+
+body{
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	line-height:20px;
+	color:#333;
+   }
+html{
+	background:white;
+	color:#333;
+}
+*{
+	margin:0;
+	padding:0;
+}
+body,button,input,select,textarea{
+	font-size:12px;
+	font-family:"Hiragino Sans GB",arial,tahoma,"微软雅黑","宋体",sans-serif;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,blockquote,th,td,hr{
+	margin:0;
+	padding:0;
+}
+ul,li,ol,h1,dl,dd{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+a{
+	color:#1965b3;
+    text-decoration: none;
+	}    
+a:hover{
+	color:#CD590C;
+	text-decoration:underline;
+	}
+img{
+	border:0px;
+	vertical-align:middle;
+	}
+#nav{
+	margin:10px auto 10px auto;
+	width:800px;
+	clear:both;
+	}
+#navlist{
+	width:800px;
+	margin:0px auto 0px auto;
+	height:23px;
+	}
+	#navlist li{
+		float:left;
+		height:23px;
+		line-height:26px;
+	}
+.shortcut{
+	background:#f7f7f7; 
+	width:100%; 
+	min-width: 1200px;
+	}
+.shortcut .sh-cont{
+	width:1200px; 
+	height:35px; 
+	margin:0 auto; 
+	}
+.shortcut .sh-cont .fl {
+	width:450px;
+	height:35px;
+	line-height: 35px;
+	color: #666;
+	}
+div#topUserLoad.fl{
+	float:left;
+	display:inline;
+}
+.shortcut .sh-cont .fl a{
+	color:#666;
+	line-height:35px;
+	text-decoration:none;
+	}
+a.login_btn cur:link{
+	color:red;
+	
+} 
+.shortcut .sh-cont .fl a:hover{
+	color:#e8340c;
+	}
+
+.shortcut .sh-cont .fl span{
+	color: #aaa;
+	}
+.fr a{
+	color:#666;
+	text-decoration:none;
+}
+.shortcut .sh-cont .fr{
+	color: #666;
+	height:35px;
+	line-height: 35px;
+	}
+.fr{
+	float:right;
+	display:inline;
+}
+ul,li,ol{
+	list-style:none;
+}
+.shortcut .sh-cont .fr .item{
+	padding: 0 10px;
+	float: left;
+	}
+.shortcut .sh-cont .fr .item a:hover{
+	color: #e8340c;
+	}
+.shortcut .sh-cont .fr .item .dt{
+	position: relative;
+	padding-right: 13px;
+	}
+.shortcut .sh-cont .fr .item .arr{
+	position: absolute;
+	top: 15px;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-style: solid; 
+	border-width: 4px 4px 0 4px;
+	border-color: #c7c7c9 transparent transparent transparent;
+	}
+.shortcut .sh-cont .fr .item .fore-box{
+	display: none;
+	width: auto;
+	border: 1px solid #eee;
+	min-width: 100%;
+	background-color: #fff;
+	border-top: none;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+	left: -1px;
+	padding-bottom: 5px;
+	position: absolute;
+	top: 32px;
+	z-index: 90;
+	overflow: hidden;
+	}
+.shortcut .sh-cont .fr .item .fore-box a {
+	display: block;
+	white-space: nowrap;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 11px;
+	padding-right: 10px;
+	overflow: hidden;
+	float: left;}
+.shortcut .sh-cont .fr .item .blank {
+	display: none;
+	background-color: #fff;
+	height: 8px;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	z-index:99;
+	}
+.header-mc{
+	width:1200px;
+	height:100px;
+	margin:0 auto;
+	overflow:hidden;
+	border-bottom:4px solid #f287b1;
+}
+.header-mc .logo{
+	width: 230px; 
+	height: 80px;
+	float: left; 
+	margin-top: 10px;
+	}
+.header-mc .logo a{
+	display: block; 
+	width: 230px;
+	height: 80px; 
+	overflow: hidden;
+	}
+a:hover,a:link,a:visited,input:focus{
+	text-decoration:none;
+	transition:background 120ms,border 120ms,text-shadow 250ms ease-in 0ms,color 120ms ease-in 0ms;
+	}
+.shopping_pro{
+	float:right;
+	left:20px;
+	width:834px;
+	height:86px;
+	background:url(image/buycar/pro.png) 0 0 no-repeat;
+	font:bold 18px "Microsoft Yahei";
+	color:#646464;
+	margin:10px 0 0;
+}
+.shopping_pro span{
+	width:278px;
+	display:inline-block;
+	text-align:center;
+	position:relative;
+	top:32px;
+}
+.shopping_pro span.current{
+	color:#fff;
+	width:206px;
+}
+
+.order_pro{
+	float:right;
+	left:20px;
+	width:834px;
+	height:86px;
+	background:url(image/icon/pro.png) 0 0 no-repeat;
+	font:bold 18px "Microsoft Yahei";
+	color:#646464;
+	margin:10px 0 0;
+}
+.order_pro span{
+	width:278px;
+	display:inline-block;
+	text-align:center;
+	position:relative;
+	top:32px;
+}
+.order_pro span.my{
+	color:#fff;
+	width:206px;
+}
+.shop{
+	width:1200px;
+	margin:0 auto;
+}
+.shop_title{
+	line-height:36px;
+	height:36px;
+	margin-top:10px;
+}
+.shop_title li{
+	float:left;
+	text-align:center;
+	color:#969696;
+}
+.shop_title .f1{
+	text-align:left;
+	width:190px;
+	margin-left:25px;
+}
+.shop_title .f1 a{
+	color:#969696;
+}
+.shop_title .f2{
+    text-align:left;
+	width:260px;
+}
+.shop_title .f3{
+	width:187px;
+}
+.shop_title .f4{
+	width:187px;
+}
+.shop_title .f5{
+	width:127px;
+}
